@@ -1,0 +1,205 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #d45dec;
+  color: #141313;
+  padding: 15px;
+  text-align: center;
+}
+.navigation-form {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.navigation-form form {
+    display: inline-block;
+    background-color: #d5b7db;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.navigation-form label {
+    color: #1b1919;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.navigation-form select {
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #c0dedf;
+    color: #333;
+    cursor: pointer;
+}
+
+nav {
+  background-color: #888;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+main {
+  padding: 20px;
+}
+
+/* Estilo de las tablas */
+table {
+  width: 80%;
+  margin: 20px 0;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #181616;
+}
+
+th {
+  background-color: #85a7da;
+}
+
+
+/* Tabla 1*/
+#tabla1 table {
+  width: 60%; 
+  
+}
+
+#tabla1 table tr:hover {
+  background-color: #f9c74f; 
+}
+
+/* Tabla 2 */
+#tabla2 table th {
+  background-color: #f2b9b9;
+    border: 2px dotted #23112b;
+
+}
+#tabla2 table tr:hover {
+  text-decoration: underline;
+  text-decoration-color: #ff6347; 
+}
+
+/* Tabla 3 */
+#tabla3 table th {
+  background-color: #9bdde6;
+}
+#tabla3 table tr:hover {
+  background-color: #36d7b7; 
+}
+
+#tabla4 table tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.zebra {
+  background-color: #e6f7ff;
+}
+
+/* Tabla 4 */
+#tabla4 table tr:hover {
+  background-color: #9b59b6; 
+}
+
+/* Tabla 5 */
+#tabla5 table th {
+  background-color: #85a7da;
+}
+
+#tabla5 table td:nth-child(2) {
+  text-align: right;
+}
+#tabla5 table tr:hover {
+  background-color: #1abc9c; 
+}
+
+/* Tabla 6 */
+#tabla6 table tr:hover {
+  background-color: #97e294;
+  width: 10%;
+    border: 4px dotted #ad5444;
+
+
+}
+
+#tabla6 table tr:hover {
+  text-decoration: underline;
+  text-decoration-color: #8e44ad; 
+}
+
+/* Tabla 7 */
+#tabla7 table {
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid #3498db;
+}
+
+#tabla7 table tr:hover {
+  background-color: #d14abf; 
+}
+
+/* Tabla 8 */
+#tabla8 table {
+  border: 2px dotted #8e44ad;
+  width: 42%;
+}
+#tabla8 table tr:hover {
+  background-color: #e74c3c; 
+}
+
+/* Tabla 9*/
+#tabla9 table th {
+  width: 74%;
+  background-color: #d5a6bd;
+  text-align: center;
+  font-size: 18px;
+}
+#tabla9 table tr:hover {
+  background-color: #75808b; 
+  text-decoration: underline;
+  text-decoration-color: #691fca; 
+}
+
+/* Tabla 10 */
+#tabla10 table {
+  width: 20%;
+  border: 5px solid #2c3e50;
+  
+}
+#tabla10 table tr:hover {
+  background-color: #16a085; 
+}
+
+/*footer*/
+footer{
+  background-color: #d45dec;
+  color: #0f0e0e;
+  padding: 15px;
+  text-align: center;
+}
+

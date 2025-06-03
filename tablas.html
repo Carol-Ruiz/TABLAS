@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tablas</title>
+  <link rel="stylesheet" href="./_css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Tablas en HTML</h1>
+  </header>
+
+<div class="navigation-form">
+    <form action="" method="get">
+        <label for="section">Ir a la tabla:</label>
+        <select id="section" name="section" onchange="location = this.value;">
+            <option value="">Seleccione la tabla</option>
+            <option value="#tabla1">Tabla 1</option>
+            <option value="#tabla2">Tabla 2</option>
+            <option value="#tabla3">Tabla 3</option>
+            <option value="#tabla4">Tabla 4</option>
+            <option value="#tabla5">Tabla 5</option>
+            <option value="#tabla6">Tabla 6</option>
+            <option value="#tabla7">Tabla 7</option>
+            <option value="#tabla8">Tabla 8</option>
+            <option value="#tabla9">Tabla 9</option>
+            <option value="#tabla10">Tabla 10</option>
+        </select>
+    </form>
+</div>
+
+
+
+  <main>
+    <!-- Tabla 1 -->
+    <section id="tabla1">
+      <h2>Tabla 1</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Artista</th>
+            <th>Año de inicio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Gustavo Cerati</td>
+            <td>1982</td>
+          </tr>
+          <tr>
+            <td>Charly García</td>
+            <td>1972</td>
+          </tr>
+          <tr>
+            <td>Luis Alberto Spinetta</td>
+            <td>1967</td>
+          </tr>
+          <tr>
+            <td>Serú Girán</td>
+            <td>1978</td>
+          </tr>
+          <tr>
+            <td>La Grasa de las Capitales</td>
+            <td>1973</td>
+          </tr>
+          <tr>
+            <td>Rupa Trupa</td>
+            <td>2005</td>
+          </tr>
+          <tr>
+            <td>Edmaverik</td>
+            <td>2010</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Tabla 2 -->
+    <section id="tabla2">
+      <h2>Tabla 2</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Artista</th>
+            <th>Canción más famosa</th>
+            <th>Año</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Gustavo Cerati</td>
+            <td>En la ciudad de la furia</td>
+            <td>1998</td>
+          </tr>
+          <tr>
+            <td>Charly García</td>
+            <td>Piano Bar</td>
+            <td>1984</td>
+          </tr>
+          <tr>
+            <td>Spinetta</td>
+            <td>Seguir viviendo sin tu amor</td>
+            <td>1983</td>
+          </tr>
+          <tr>
+            <td>Serú Girán</td>
+            <td>La Grasa de las Capitales</td>
+            <td>1979</td>
+          </tr>
+          <tr>
+            <td>Rupa Trupa</td>
+            <td>Ya no se baila como antes</td>
+            <td>2020</td>
+          </tr>
+          <tr>
+            <td>Edmaverik</td>
+            <td>Eduardo</td>
+            <td>2015</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Tabla 3 -->
+    <section id="tabla3">
+      <h2>Tabla 3</h2>
+      <table>
+        <thead>
+          <tr>
+            <th rowspan="2">Artista</th>
+            <th>Disco</th>
+            <th>Año de lanzamiento</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Gustavo Cerati</td>
+            <td>Bocanada</td>
+            <td>1999</td>
+          </tr>
+          <tr>
+            <td>Charly García</td>
+            <td>Clics modernos</td>
+            <td>1983</td>
+          </tr>
+          <tr>
+            <td>Spinetta</td>
+            <td>Artaud</td>
+            <td>1973</td>
+          </tr>
+          <tr>
+            <td>Serú Girán</td>
+            <td>Serú Girán</td>
+            <td>1978</td>
+          </tr>
+          <tr>
+            <td>Rupa Trupa</td>
+            <td>Directo en sdman</td>
+            <td>2009</td>
+          </tr>
+          <tr>
+            <td>Edmaverik</td>
+            <td>Eduardo</td>
+            <td>2015</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Tabla 4 -->
+    <section id="tabla4">
+      <h2>Tabla 4</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Disco</th>
+            <th>Artista</th>
+            <th>Año</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="text-align: left;">Bocanada</td>
+            <td style="text-align: center;">Gustavo Cerati</td>
+            <td style="text-align: right;">1999</td>
+          </tr>
+          <tr>
+            <td style="text-align: left;">Clics Modernos</td>
+            <td style="text-align: center;">Charly García</td>
+            <td style="text-align: right;">1983</td>
+          </tr>
+          <tr>
+            <td style="text-align: left;">Artaud</td>
+            <td style="text-align: center;">Luis Alberto Spinetta</td>
+            <td style="text-align: right;">1973</td>
+          </tr>
+          <tr>
+            <td style="text-align: left;">Ya no se baila como antes</td>
+            <td style="text-align: center;">Rupa Trupa</td>
+            <td style="text-align: right;">2009</td>
+          </tr>
+          <tr>
+            <td style="text-align: left;">Trancisiones</td>
+            <td style="text-align: center;">Edmaverik</td>
+            <td style="text-align: right;">2015</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Tabla 5 -->
+    <section id="tabla5">
+      <h2>Tabla 5</h2>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="2">Datos de Artistas y sus Discos</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Artista</td>
+            <td>Gustavo Cerati</td>
+          </tr>
+          <tr>
+            <td>Disco más famoso</td>
+            <td>Bocanada</td>
+          </tr>
+          <tr>
+            <td>Género</td>
+            <td>Rock, Pop</td>
+          </tr>
+          <tr>
+            <td>Año de inicio</td>
+            <td>1999</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Tabla 6 -->
+    <section id="tabla6">
+      <h2>Tabla 6</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Artista</th>
+            <th>Detalles</th>
+          </tr>
+        </thead>
+        <tbody>
+    <tr>
+        <td>Gustavo Cerati</td>
+        <td>
+            <table>
+            <tr>
+              <td bgcolor="orange">Disco</td>
+              <td>Bocanada</td>
+            </tr>
+            <tr>
+              <td>Año de inicio</td>
+              <td>1999</td>
+            </tr>
+            <tr>
+              <td bgcolor="orange">Género</td>
+              <td>Rock</td>
+            </tr>
+            </table>
+          </td>
+          </tr>
+          <tr>
+             <td>Charly García</td>
+          <td>
+          <table>
+           <tr>
+             <td>Disco</td>
+             <td bgcolor="yellow">Clics Modernos</td>
+          </tr>
+          <tr>
+            <td>Año de inicio</td>
+            <td>1983</td>
+          </tr>
+          <tr>
+            <td>Género</td>
+            <td bgcolor="yellow">Rock</td>
+          </tr>
+          </table>
+          </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Tabla 7 -->
+    <section id="tabla7">
+      <h2>Tabla 7</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Artista</th>
+            <th>Disco</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="zebra">
+            <td>Gustavo Cerati</td>
+            <td>Bocanada</td>
+          </tr>
+          <tr>
+            <td>Charly García</td>
+            <td>Clics Modernos</td>
+          </tr>
+          <tr class="zebra">
+            <td>Spinetta</td>
+            <td>Artaud</td>
+          </tr>
+          <tr>
+            <td>Serú Girán</td>
+            <td>La Grasa de las Capitales</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Tabla 8 -->
+    <section id="tabla8">
+      <h2>Tabla 8</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Disco</th>
+            <th>Año</th>
+          </tr>
+        </thead>
+        <tbody>
+         <tr>
+           <td>Bocanada</td>
+           <td>1999</td>
+         </tr>
+          <tr>
+           <td>Clics Modernos</td>
+           <td>1983</td>
+          </tr>
+        <tr>
+           <td>Rupa Trupa</td>
+           <td>2009</td>
+        </tr>
+        <tr>
+          <td>Edmaverik</td>
+          <td>2015</td>
+        </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th>Total</th>
+            <th>4 discos</th>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <!-- Tabla 9: -->
+    <section id="tabla9">
+      <h2>Tabla 9</h2>
+      <table>
+        <thead>
+          <tr>
+            <th rowspan="2">Artista</th>
+            <th colspan="2">Información</th>
+          </tr>
+          <tr>
+            <th bgcolor="pink">Disco</th>
+            <th bgcolor="pink">Año</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Gustavo Cerati</td>
+            <td>Bocanada</td>
+            <td>1999</td>
+          </tr>
+          <tr>
+            <td>Charly García</td>
+            <td>Clics Modernos</td>
+            <td>1983</td>
+          </tr>
+           <tr>
+            <td>Serú Girán</td>
+            <td>Grasa de las capitales</td>
+            <td>1978</td>
+          </tr>
+          <tr>
+            <td>Rupa Trupa</td>
+            <td>Directo en sdman</td>
+            <td>2009</td>
+          </tr>
+          <tr>
+            <td>Edmaverik</td>
+            <td>Eduardo</td>
+            <td>2015</td>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Tabla 10 -->
+    <section id="tabla10">
+      <h2>Tabla 10</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Artista</th>
+            <th>Disco</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Gustavo Cerati</td>
+            <td>Bocanada</td>
+          </tr>
+          <tr>
+            <td>Charly García</td>
+            <td>Clics Modernos</td>
+          </tr>
+          <tr>
+            <td>Rupa Trupa</td>
+            <td>Directo en sdman</td>
+          </tr>
+          <tr>
+            <td>Edmaverik</td>
+            <td>Eduardo</td>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+</body>
+<footer>&copy 2025</footer>
+</html>
+
+
